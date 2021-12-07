@@ -1,8 +1,7 @@
 const { getJestProjects } = require('@nrwl/jest');
 
 module.exports = {
-  projects: [
-    
+  projects: [    
     ...getJestProjects(),
     '<rootDir>/apps/ngshop',
     '<rootDir>/apps/admin',
